@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(26, 27, 27);
+    color: white;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 1200px;
+    font-family: Roboto;
+    }
+
+ul {
+    list-style-type: none;
+    background-color: rgb(185, 189, 189);
+    padding: 25px;
+    margin-left: 55px;
+    text-align: right;   
+  }
+
+  li{
+    display: inline;
+  }
+
+  li a{
+    color: white;
+    text-decoration: none;
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 500;
+    align-self: auto;
+    }
+
+    li a .hover{
+        color: blue;
+    }
+
+    .introdiv{
+        display: inline;
+    }
+
+    .intro{
+        background-color: brown;
+        text-align: center;
+        color: blueviolet;
+        line-height: 30px;
+        width: 400px;
+        padding-top: 30px;
+        padding-right: 20px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+    }
+    .intro p{
+        color: white;
+        }
+    
+        .intro h1{
+            color: rgb(172, 172, 231);
+            font-size: 40px;
+            font-family: Poppins;
+        }
+
+    .flex-container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            margin: 20px;
+    }
+
+    #about{
+        background-color: #fff;    
+        display: flex;
+        text-align: center;
+        padding: 60px;
+        margin-left: 55px;
+        color: black;
+    }
+    #about p{
+        font-family: Roboto;
+        font-weight: 600px;
+        font-size: 16px;
+    }
+
+    #about h1{
+        color: orangered;
+        font-size: 30px;
+        font-family: Roboto;
+    }
+
+    #about h4{
+        color: rgb(99, 43, 15);
+        font-size: 20px;
+        font-family: Roboto;
+    }
+
+    #about p{
+        color: blueviolet;
+        font-size: 20px;
+        font-family: Roboto;
+    }
+
+    #work{
+        background-color: antiquewhite;     
+        display: flex;
+        text-align: center;
+        padding: 60px;
+        margin-left: 55px;
+        color: black;
+    }
